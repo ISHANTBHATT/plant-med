@@ -1,0 +1,125 @@
+.ProductPage__left {
+  display: flex;
+  height: auto;
+  width: 100%;
+  flex: 0.6;
+}
+
+.ProductPage__right {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+ margin-top: 100px;
+}
+.right__price > span {
+  font-size: 1.57143em;
+  font-weight: 700;
+}
+
+.right__title > h1 {
+  font-size: 1.71429em;
+  font-weight: 400;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+}
+.left__right {
+  display: flex;
+
+  margin-left: 40px;
+  flex: 0.8;
+}
+
+.ProductPage__image {
+  width: 82%;
+  height: 75%;
+}
+
+.ProductPage__sideimg {
+  width: 50%;
+  height: 11%;
+  margin-bottom: 20px;
+}
+
+.left__left {
+  height: auto;
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+}
+
+.ProductPage {
+  padding: 0 10%;
+  display: flex;
+}
+
+.AddToCart {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  border-radius: 2px;
+  width: 100%;
+  height: 60px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.AddToCart:hover {
+  background: #131921;
+  color: #fff;
+}
+
+.right__details {
+  margin-top: 20px;
+  display: flex;
+  font-size: 1.07143em;
+  font-weight: 500;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.38px;
+  justify-content: space-between;
+}
+
+.right__shipment {
+  display: flex;
+}
+
+.right__shipment > p {
+  padding-left: 10px;
+}
+.right__AddtoFav > P {
+  padding-left: 10px;
+}
+.right__AddtoFav {
+  display: flex;
+}
+
+.quantity > p {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.quantity {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.right__shipment > p:hover {
+  color: #f0c14b;
+}
+
+.ProductTop__bar {
+  padding-top: 120px;
+  padding-left: 10%;
+  margin-bottom: 40px;
+}
+
+.PP__icon:hover {
+  color: #f0c14b;
+}
+
+@media (max-width: 800px) {
+  .ProductPage {
+    flex-direction: column;
+  }
+}
